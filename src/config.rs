@@ -99,6 +99,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["nas.sen168.top"];
+
 pub const RS_PUB_KEY: &str = "39oQIoPsqzsSSBXhpeT9ucPidbYFy6E+Y1X+717Z6W4=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
