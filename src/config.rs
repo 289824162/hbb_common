@@ -98,8 +98,10 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["nas.sen168.top"];
-pub const RS_PUB_KEY: &str = "39oQIoPsqzsSSBXhpeT9ucPidbYFy6E+Y1X+717Z6W4=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["tdhy.cc"];   //tdhy
+//pub const RENDEZVOUS_SERVERS: &[&str] = &["nas.sen168.top"];    //sensen
+//pub const RS_PUB_KEY: &str = "39oQIoPsqzsSSBXhpeT9ucPidbYFy6E+Y1X+717Z6W4=";   //sensen
+pub const RS_PUB_KEY: &str = "fn9cpFYojZgeiyrSzE4R+6t0egvz+mkc3cV37u6X0ZE=";     //tdhy
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
